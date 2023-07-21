@@ -1,0 +1,108 @@
+<!--certo-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Início | Netflix</title>
+  <link rel="icon" href="imagens/logopgn-removebg-preview (1).png">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="nav">
+    <div id="banner__fadeTop"></div>
+    <div class="nav__left">
+      <img class="nav_logo" src="imagens/logo.svg">
+      <ul class="lista-menu">
+        <li>Início</li>
+        <li>Séries</li>
+        <li>Filmes</li>
+        <li>Bombando</li>
+        <li>Minha lista</li>
+        <li>Navegar por idiomas</li>
+      </ul>
+    </div>
+    <div class="nav__right">
+      <img src="imagens/lupa.png" class="lupa">
+      <img src="imagens/sino.png" class="sino">
+      <img src="imagens/avatar.png" class="nav_avatar">
+      <img src="imagens/seta.png" class="seta">
+    </div>
+  </div>
+
+  <!-- banner -->
+  <header id="banner">
+    <div id="banner__contents">
+      <h1 id="banner__title"></h1>
+      <div id="banner__buttons">
+        <button id="banner__button-assistir">Assistir</button>
+        <button id="banner__button-mais">Mais Informações</button>
+      </div>
+      <p id="banner__description"></p>
+    </div>
+    <div id="banner__fadeBottom"></div>
+  </header>
+
+  <div id="headrow">
+    <div class="row">
+      <h2 class="row__title"></h2>
+      <div class="row__posters no-scroll"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="redes">
+      <img src="imagens/facebook.png" class="img-face">
+      <img src="imagens/instagram.png" class="img-footer">
+      <img src="imagens/twitter.png" class="img-footer">
+      <img src="imagens/youtube.png" class="img-footer">
+    </div>
+    
+    <div class="links-footer">
+
+      <ul class="lista-footer">
+        <p>Autodescrição</p>
+        <p>Relações com investidores</p>
+        <p>Avisos legais</p>
+      </ul>
+
+      <ul class="lista-footer">
+        <p>Central de Ajuda</p>
+        <p>Carreiras</p>
+        <p>Preferências de cookies</p>
+      </ul>
+
+      <ul class="lista-footer">
+        <p>Cartão pré-pago</p>
+        <p>Termos de Uso</p>
+        <p>Informações corporativas</p>
+      </ul>
+
+      <ul class="lista-footer">
+        <p>Imprensa</p>
+        <p>Privacidade</p>
+        <p>Entre em contato</p>
+      </ul>
+    </div>
+
+    <div class="btn-footer">
+      <button>Código de serviço</button>
+      <p>&copy; 2002-2023 Danielly, Inc.</p>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener("scroll", function () {
+
+      var nav = document.querySelector(".nav");
+      nav.classList.toggle("active", window.scrollY > 0);
+    }) 
+  </script>
+</body>
+
+</html>
