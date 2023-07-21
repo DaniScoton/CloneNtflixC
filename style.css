@@ -232,6 +232,7 @@ body {
   max-height: 300px;
   border-radius: 7px;
   padding-right: 10px;
+  transition: transform 500ms;
 }
 
 .row__posters {
