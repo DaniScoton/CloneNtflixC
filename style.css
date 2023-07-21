@@ -456,6 +456,11 @@ footer {
     padding-left: unset;
   }
 
+  .nav_logo{
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   .row{
     margin-left: unset;
     padding-left: 5px;
